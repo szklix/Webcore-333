@@ -1,0 +1,76 @@
+/* establece estilo a la cabezera */
+header{
+    background-color: red; /* color de fondo de la cabezera */
+    padding: 1%; /* espacio interno */
+    text-align: center; /* alineacion del texto */
+    border-top: 10px solid red (240, 127, 34); /* color y ancho del border superior */
+    border-bottom: 10px solid red (243, 126, 29); /* color y ancho del borde */
+    color: black (20, 0, 1); /* color del texto */
+}
+
+/* establece estilo a la imagen */
+.imagen-inline{
+    width: 110px; /* ancho de la imagen */
+    height: auto; /* alto de la imagen que se adapta a lo ancho */
+    float: right; /* ubicacion de la imagen */
+    display: inline; /* se muestra en la misma linea que el texto */
+    margin-right: 10px; /* margenes dentro de la cabecera */
+    margin-top: 5px; /* margen dentro de la cabezera */
+}
+
+/* estilo para la barra de navegacion */
+.navbar ul{
+    background-color: black; /* color de fondo */ 
+    list-style: none; /* elimina los marcadores * de la lista */
+    display: flex; /* crea una barra o contenedor que permite a sus */
+    justify-content: flex-start; /* los botones se distribuyen de manera */
+    padding: 0; /* espaciado interno */
+    margin: 0; /* margen entre la barra nav y header */
+}
+
+/* establece estilo para los botones */
+.btn-nav{
+    background-color: black; /* color de fondo del boton */
+    color: white; /* es el color del texto */
+    border: 1px solid black; /* elimina el borde que estaba predeterminado en los botones */
+    padding: 10px 20px; /* es el espacio interno entre los botones */
+    font-size: 16px; /* tamano de la fuente */
+    cursor: pointer; /* cambia el cursor a una mano cuando pasa por encima del boton */
+}
+
+/* estilo para cuando se pasa el cursor sobre los botones */
+.btn-nav:hover{
+    background-color: red; /* cambia el color de fondo */
+}
+
+.contenedor{
+    display: flex;
+    width: 100val;
+}
+
+.articulo{
+    background-color: black;
+    color: red;
+    flex: 3;
+    padding: 20px;
+}
+
+.pie{
+    background-color: black;
+
+}
+
+.propaganda{
+    flex: 1;
+    background-color: black;
+    color: red;
+    padding: 20px;
+}body{margin: 0;}
+
+.contenedor-flex {
+    display: flex; /* Activa el modelo de caja flexible */
+    justify-content: center; /* Centra el contenido horizontalmente */
+    align-items: center; /* Centra el contenido verticalmente */
+    height: 300px; /* Ejemplo: altura necesaria para centrado vertical */
+    /* width: 100%; */ /* Opcional: para que tome el ancho completo */
+}
